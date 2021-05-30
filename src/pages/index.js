@@ -56,11 +56,6 @@ const Index = ({ data }) => {
   }
 
   const handleDirClick = async ({ github, dir }) => {
-    // setActivePerson({
-    //   ...activePerson,
-    //   activePerson: `${activePerson.defaultRepository}/${dir}`,
-    // })
-
     await handleResponse({
       name: github,
       repo: extractRepo(activePerson.defaultRepository, github),

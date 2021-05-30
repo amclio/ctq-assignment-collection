@@ -5,6 +5,13 @@ import Footer from './Footer'
 const layoutStyle = css`
   padding: 2em 0;
   margin: 0 10em;
+
+  @media (max-width: 768px) {
+    margin: 0 4em;
+  }
+  @media (max-width: 576px) {
+    margin: 0 2em;
+  }
 `
 
 const Layout = ({ children }) => {
