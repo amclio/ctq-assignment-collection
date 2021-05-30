@@ -92,7 +92,13 @@ const Index = ({ data }) => {
             />
             {activePerson.github === github &&
               (isLoading ? (
-                <div>Loading...</div>
+                <div
+                  css={css`
+                    margin: 1em 0;
+                  `}
+                >
+                  Loading...
+                </div>
               ) : (
                 <>
                   <div
