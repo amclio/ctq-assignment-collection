@@ -18,12 +18,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
-            rel="stylesheet"
-          />
-        </head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>🔥 #CTQ_작품_컬렉션</title>
+        <meta
+          name="description"
+          content="2021년 세일고 CTQ 동아리 부원의 과제를 모은 곳 입니다."
+        />
       </Head>
       <div css={layoutStyle}>{children}</div>
       <Footer />
