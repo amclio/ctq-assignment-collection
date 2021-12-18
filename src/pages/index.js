@@ -135,7 +135,7 @@ const Index = ({ data }) => {
                       const gitCdnLink =
                         activePerson.defaultRepository.replace(
                           'github.com',
-                          'gitcdn.link/repo'
+                          'gitcdn.link/cdn'
                         ) +
                         '/main/' +
                         el.path
